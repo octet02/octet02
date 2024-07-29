@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    background-image: url(root.jpg);
+    background-position: cover;
+    animation: teni ease-in 0.5s;
+    animation-iteration-count: infinite;
+}
+h1{
+    color: #fab;
+}
+@keyframes teni{
+    from{
+        width: 500px;
+    }
+    to{
+        width: 100px;
+    }
+}
